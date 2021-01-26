@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB5C5E425C011D500FCDD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5C5E325C011D500FCDD0C /* AppDelegate.swift */; };
+		9DB5C5E625C011D500FCDD0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5C5E525C011D500FCDD0C /* SceneDelegate.swift */; };
+		9DB5C5E825C011D500FCDD0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5C5E725C011D500FCDD0C /* ViewController.swift */; };
+		9DB5C5EB25C011D500FCDD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB5C5E925C011D500FCDD0C /* Main.storyboard */; };
+		9DB5C5ED25C011D600FCDD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB5C5EC25C011D600FCDD0C /* Assets.xcassets */; };
+		9DB5C5F025C011D600FCDD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB5C5EE25C011D600FCDD0C /* LaunchScreen.storyboard */; };
+		9DB5C5F925C011E500FCDD0C /* MovEncodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5C5F825C011E500FCDD0C /* MovEncodeTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DB5C5E025C011D500FCDD0C /* MovEncodeTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovEncodeTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB5C5E325C011D500FCDD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DB5C5E525C011D500FCDD0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DB5C5E725C011D500FCDD0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DB5C5EA25C011D500FCDD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DB5C5EC25C011D600FCDD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DB5C5EF25C011D600FCDD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DB5C5F125C011D600FCDD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB5C5F825C011E500FCDD0C /* MovEncodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovEncodeTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB5C5DD25C011D500FCDD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DB5C5D725C011D500FCDD0C = {
+			isa = PBXGroup;
+			children = (
+				9DB5C5E225C011D500FCDD0C /* MovEncodeTool */,
+				9DB5C5E125C011D500FCDD0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DB5C5E125C011D500FCDD0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5C5E025C011D500FCDD0C /* MovEncodeTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DB5C5E225C011D500FCDD0C /* MovEncodeTool */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5C5E325C011D500FCDD0C /* AppDelegate.swift */,
+				9DB5C5E525C011D500FCDD0C /* SceneDelegate.swift */,
+				9DB5C5E725C011D500FCDD0C /* ViewController.swift */,
+				9DB5C5E925C011D500FCDD0C /* Main.storyboard */,
+				9DB5C5EC25C011D600FCDD0C /* Assets.xcassets */,
+				9DB5C5EE25C011D600FCDD0C /* LaunchScreen.storyboard */,
+				9DB5C5F125C011D600FCDD0C /* Info.plist */,
+				9DB5C5F825C011E500FCDD0C /* MovEncodeTool.swift */,
+			);
+			path = MovEncodeTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DB5C5DF25C011D500FCDD0C /* MovEncodeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB5C5F425C011D600FCDD0C /* Build configuration list for PBXNativeTarget "MovEncodeTool" */;
+			buildPhases = (
+				9DB5C5DC25C011D500FCDD0C /* Sources */,
+				9DB5C5DD25C011D500FCDD0C /* Frameworks */,
+				9DB5C5DE25C011D500FCDD0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovEncodeTool;
+			productName = MovEncodeTool;
+			productReference = 9DB5C5E025C011D500FCDD0C /* MovEncodeTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DB5C5D825C011D500FCDD0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					9DB5C5DF25C011D500FCDD0C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 9DB5C5DB25C011D500FCDD0C /* Build configuration list for PBXProject "MovEncodeTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DB5C5D725C011D500FCDD0C;
+			productRefGroup = 9DB5C5E125C011D500FCDD0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DB5C5DF25C011D500FCDD0C /* MovEncodeTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DB5C5DE25C011D500FCDD0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB5C5F025C011D600FCDD0C /* LaunchScreen.storyboard in Resources */,
+				9DB5C5ED25C011D600FCDD0C /* Assets.xcassets in Resources */,
+				9DB5C5EB25C011D500FCDD0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DB5C5DC25C011D500FCDD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB5C5F925C011E500FCDD0C /* MovEncodeTool.swift in Sources */,
+				9DB5C5E825C011D500FCDD0C /* ViewController.swift in Sources */,
+				9DB5C5E425C011D500FCDD0C /* AppDelegate.swift in Sources */,
+				9DB5C5E625C011D500FCDD0C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DB5C5E925C011D500FCDD0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB5C5EA25C011D500FCDD0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DB5C5EE25C011D600FCDD0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB5C5EF25C011D600FCDD0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DB5C5F225C011D600FCDD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DB5C5F325C011D600FCDD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DB5C5F525C011D600FCDD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YSUGGQK3M9;
+				INFOPLIST_FILE = MovEncodeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cq.MovEncodeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DB5C5F625C011D600FCDD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YSUGGQK3M9;
+				INFOPLIST_FILE = MovEncodeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cq.MovEncodeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DB5C5DB25C011D500FCDD0C /* Build configuration list for PBXProject "MovEncodeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB5C5F225C011D600FCDD0C /* Debug */,
+				9DB5C5F325C011D600FCDD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB5C5F425C011D600FCDD0C /* Build configuration list for PBXNativeTarget "MovEncodeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB5C5F525C011D600FCDD0C /* Debug */,
+				9DB5C5F625C011D600FCDD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DB5C5D825C011D500FCDD0C /* Project object */;
+}
