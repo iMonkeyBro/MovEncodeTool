@@ -9,7 +9,7 @@ import Foundation
 import Photos
 
 /// Mov视频格式编码工具
-public final class GMMovEncodeTool {
+public final class MovEncodeTool {
     
     public typealias ResultClosure = (_ mp4FileUrl: URL, _ mp4Data: Data) -> ()
     public typealias ErrorClosure = (_ errorMsg: String) -> ()
@@ -25,7 +25,7 @@ public final class GMMovEncodeTool {
                                 exportPresetQuality exportQuality: MovEncodeExportPresetQuality,
                                 resultClosure:@escaping ResultClosure,
                                 errorClosure:@escaping ErrorClosure) {
-        print(GMMovEncodeTool.getVideoInfo(phAsset) ?? "")
+        print(MovEncodeTool.getVideoInfo(phAsset) ?? "")
         let options = PHVideoRequestOptions()
         options.version = .current
         options.deliveryMode = .automatic
@@ -37,7 +37,7 @@ public final class GMMovEncodeTool {
                 errorClosure("resource type error")
                 return
             }
-            GMMovEncodeTool.convertMovToMp4(from: urlAsset, exportPresetQuality: exportQuality, resultClosure: resultClosure, errorClosure: errorClosure)
+            MovEncodeTool.convertMovToMp4(from: urlAsset, exportPresetQuality: exportQuality, resultClosure: resultClosure, errorClosure: errorClosure)
         }
     }
     
@@ -54,7 +54,7 @@ public final class GMMovEncodeTool {
         let avAsset = AVURLAsset(url: urlAsset.url)
         // 处理输出预设
         let compatiblePresets = AVAssetExportSession.exportPresets(compatibleWith: avAsset)
-        guard compatiblePresets.contains(GMMovEncodeTool.getAVAssetExportPresetQuality(exportQuality)) == true else {
+        guard compatiblePresets.contains(MovEncodeTool.getAVAssetExportPresetQuality(exportQuality)) == true else {
             errorClosure("没有匹配的预设")
             return
         }
@@ -80,7 +80,7 @@ public final class GMMovEncodeTool {
         let resultPath = path.appending("\(dateStr).mp4")
         print("resultPath == \(resultPath)")
         // 格式转换
-        guard let exportSession: AVAssetExportSession = AVAssetExportSession(asset: avAsset, presetName: GMMovEncodeTool.getAVAssetExportPresetQuality(exportQuality)) else {
+        guard let exportSession: AVAssetExportSession = AVAssetExportSession(asset: avAsset, presetName: MovEncodeTool.getAVAssetExportPresetQuality(exportQuality)) else {
             errorClosure("AVAssetExportSession创建失败")
             return
         }
@@ -115,7 +115,7 @@ public final class GMMovEncodeTool {
 }
 
 // MARK: - Public Func
-public extension GMMovEncodeTool {
+public extension MovEncodeTool {
     
     /// 获取视频信息
     /// - Parameter asset: PHAsset相册视频文件
@@ -147,7 +147,7 @@ public extension GMMovEncodeTool {
 }
 
 // MARK: - Private Func
-private extension GMMovEncodeTool {
+private extension MovEncodeTool {
     static func getAVAssetExportPresetQuality(_ exportPreset: MovEncodeExportPresetQuality) -> String {
         switch exportPreset {
         case .low:
